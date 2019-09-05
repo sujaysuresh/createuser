@@ -8,29 +8,29 @@
       <CENTER><h1>CREATE USER</h1></CENTER>
      
       <hr>
-      <label for="id"><b>emp_id</b></label>
+      <label for="id"><b>Emp_Id</b></label>
       <input type="text" placeholder="Enter emp id" name="emp id" required><br><br>
 
-      <label for="name"><b>emp_name</b></label>
+      <label for="name"><b>Emp_Name</b></label>
       <input type="text" placeholder="Enter name" name="name" required><br><br>
 
-      <label for="email"><b>emp_email</b></label>
+      <label for="email"><b>Emp_Email</b></label>
       <input type="text" placeholder="email required" name="email" required><br><br>
 
        
-      <label for="password"><b>emp_pass</b></label>
+      <label for="password"><b>Emp_Pass</b></label>
       <input type="text" placeholder="password required" name="password" required><br><br>
       
-      <label for="designation"><b>emp_desg</b></label>
+      <label for="designation"><b>Emp_Desg</b></label>
       <input type="text" placeholder="designation required" name="email" required><br><br>
       
-      <label for="dept_id"><b>dept_id</b></label>
+      <label for="dept_id"><b>Dept_Id</b></label>
       <input type="text" placeholder="dept id required" name="dept id" required><br><br>
       
-      <label for="status"><b>emp_status</b></label>
+      <label for="status"><b>Emp_Status</b></label>
       <input type="text" placeholder="" name="" required><br><br>
       
-      <label for="startdate"><b>emp_startdate</b></label>
+      <label for="startdate"><b>Emp_Startdate</b></label>
       <input type="text" placeholder="" name="" required><br><br>
 
       
