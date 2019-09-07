@@ -1,0 +1,197 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>Order Management System</title>
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+  <!-- Bootstrap core CSS -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <!-- Material Design Bootstrap -->
+  <link href="css/mdb.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/style_1.css">
+  <!-- Your custom styles (optional) -->
+  <link href="css/style.css" rel="stylesheet">
+</head>
+<style>
+th{
+    color:#004d4d;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.shw{
+  //  display: none;
+}
+body {
+ background-image: url("computer.jpg");
+ 
+}
+</style>
+<body>
+<section>
+    <div class="container mt-5">
+        <div class="row">
+        
+            <div class="col-8 mx-auto mt-5">
+                <div class="row">
+                <div class="col-3">
+                    <div class="form-group">
+                        
+                        <h5 style="color:#004d4d;"><strong>MOM</strong></h5>
+                    </div>
+                </div>
+                <div class="col-6">
+                        <div class="form-group">
+                            
+                            <input type="text" class="form-control" placeholder="MOM NAME">
+                        </div>
+                    </div>
+                    <div class="col-3">
+                            <div class="form-group">
+                                
+                                <input type="date" class="form-control" placeholder="MOM">
+                            </div>
+                        </div></div>
+                        <div class="row">
+                                    <div class="col-5">
+                                            <div class="form-group">
+                                                    <h5 style="color:#004d4d;"><strong>Points Discussed</strong</h5>
+                                                    
+                                            </div>
+                                        </div>
+                                        <div class="col-7">
+                                             <!-- Material inline 1 -->
+
+                                            </div>
+                            </div>
+                            <div class="row">
+                                    <div class="col-5">
+                                            <div class="form-group">
+                                                    <h5 style="color:#004d4d;">Desc Taken</h5>
+                                            </div>
+                                        </div>
+                                        <div class="col-7">
+                                               <textarea name="" id="" cols="30" rows="1" class="form-control" placeholder="textarea"></textarea>
+                                            </div>
+                            </div>
+                            <div class="row">
+                                    <div class="col-5">
+                                            <div class="form-group">
+                                                    <h5 style="color:#004d4d;">Points discussed</h5>
+                                            </div>
+                                        </div>
+                                        <div class="col-7">
+                                               <textarea name="" id="text1" cols="30" rows="1" class="form-control" placeholder="textarea"></textarea>
+                                            </div>
+                            </div>
+                            <div class="row">
+                                    <div class="col-5">
+                                           <div class="row">
+                                               <div class="col-6 mt-2">
+                                                   <h5 style="color:#004d4d;">Action</h5>
+                                               </div>
+                                               <div class="col-6">
+                                                   <button class="btn btn-sm btn-danger" id="btn"><i class="fas fa-plus-square" style="font-size:20px;"></i></button>
+                                               </div>
+                                           </div>
+                                        </div>
+                                        <div class="col-7">
+                                            <div class="row">
+                                                <div class="col-12 shw1" >
+                                        
+                                                </div>
+                                                <div class="col-6 shw2">
+                                                
+                                                </div>
+                                            </div>
+
+                                            </div>
+                            </div>
+                            <div class="row">
+                                    <div class="col-5">
+                                            <div class="form-group">
+                                                    <h5 style="color:#004d4d;">Open Item</h5>
+                                            </div>
+                                        </div>
+                                        <div class="col-7">
+                                               <textarea name="" id="" cols="30" rows="1" class="form-control" placeholder="textarea"></textarea>
+                                            </div>
+                            </div>
+                            <button class="btn btn-block btn-success">Generate Mom</button>
+                        </div>
+            </div>
+        </div>
+    
+</section>
+</body>
+<section>
+    <!-- Button trigger modal -->
+
+      
+   
+</section>
+<!--Dropdown primary-->
+
+      <!--/Dropdown primary-->
+
+  <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+  <!-- Bootstrap tooltips -->
+  <script type="text/javascript" src="js/popper.min.js"></script>
+  <!-- Bootstrap core JavaScript -->
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  <!-- MDB core JavaScript -->
+  <script type="text/javascript" src="js/mdb.min.js"></script>
+  <script>// Material Select Initialization
+        $(document).ready(function() {
+        $('.mdb-select').materialSelect();
+        });</script>
+        
+        <script>
+$('#half').addClass('animated bounceInLeft');
+$("#nav").addClass('animated fadeInDownBig');
+$("#oms").addClass('animated bounceInRight');
+$('.dropdown-toggle').dropdown()
+        </script>
+        <script>
+        $("#btn").click(function(){
+            $(".shw1").append('<textarea name="" id="" cols="30" rows="1" class="form-control" placeholder="textarea"></textarea><br>');
+        });
+        $("#text1").keydown(function(){
+            $("#text1").attr("rows","5");
+        })
+      
+        </script>
+        <script>
+
+$("#materialInline1").click(function(){
+            if($(this).prop("checked") == true){
+                var x=document.getElementById("materialInline1").value;
+        document.getElementById("test").value=x;
+            }
+
+})
+
+$("#materialInline2").click(function(){
+            if($(this).prop("checked") == true){
+                var x=document.getElementById("materialInline2").value;
+        document.getElementById("test").value=x;
+            }
+
+})
+
+$("#materialInline3").click(function(){
+            if($(this).prop("checked") == true){
+                var x=document.getElementById("materialInline3").value;
+        document.getElementById("test").value=x;
+            }
+
+})
+        
+        </script>
+</body>
+
+</html>
